@@ -1,12 +1,15 @@
-import './App.css';
+import React from 'react'
+import Header from './components/Header';
+import LogoIcon from './components/Logo';
+import LogoSearch from './components/LogoSearch';
 
 function App() {  
   return (
-    <h1>kfkffjkslkjlkk</h1>
-
-
-
-  );
+    <Header> 
+      <LogoIcon />
+      <LogoSearch />
+    </Header> 
+  )
 }
 
 export default App;
