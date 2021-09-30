@@ -1,24 +1,15 @@
-import logo from './logo.svg';
+/* eslint-disable react/react-in-jsx-scope */
 import './App.css';
+import IconSearch from './components/IconSearch';
+import LogoMain from './components/LogoMain';
+import HeaderMain from './components/HeaderMain';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <HeaderMain>
+      <LogoMain />
+      <IconSearch />
+    </HeaderMain>
   );
 }
 
