@@ -4,6 +4,7 @@ import IconSearch from './components/IconSearch';
 import LogoMain from './components/LogoMain';
 import HeaderMain from './components/HeaderMain';
 import IconFilter from './components/IconFilter';
+import { ServiceFilter, Label } from './components/ServiceFilter';
 
 function App() {
   return (
@@ -12,7 +13,11 @@ function App() {
         <LogoMain />
         <IconSearch />
       </HeaderMain>
-      <IconFilter />
+
+      <ServiceFilter>
+        <IconFilter />
+        <Label> Guia de serviço </Label>
+      </ServiceFilter>
     </>
   );
 }
