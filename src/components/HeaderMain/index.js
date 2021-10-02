@@ -4,7 +4,7 @@ import LogoMain from '../LogoMain';
 const HeaderMain = styled.header`
     display:flex;
     justify-content: space-between;
-    background-color:blue;
+    margin: 24px;
 
     & > ${LogoMain}{
         width: 24px;
