@@ -14,7 +14,6 @@ export const ServiceFilterStyle = styled.nav`
 
 export const Label = styled.p`
     color: #fffcee;
-    font-family: 'comfortaa';
     font-size: 20px;
     line-height: 1em;
 `;
